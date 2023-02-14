@@ -55,6 +55,6 @@
 		<input type="password" name="txtpwd" class="form-control mt-2" placeholder="Enter Your Password" id="txtpwd" required>
 		<input type="password" name="txtrpwd" class="form-control mt-2" placeholder="Re-type Password" onkeyup="chkpwd()" id="txtrpwd" required>
 		<input type="submit" id="btnsave" class="btn btn-primary w-100 mt-3" value="Register">
-		<a href="login2.php" class="btn btn-success w-100 mt-2">Already a User? Click here to Login</a>
+		<a href="login.php" class="btn btn-success w-100 mt-2">Already a User? Click here to Login</a>
 	</form>
 </div>
