@@ -10,7 +10,7 @@
 		$pmob = $_POST['txtpmob'];
 		$dob = $_POST['dob'];
 		$addedby = $_SESSION['unm'];
-		$sql = "insert into `student`(`student_name`,`class`,`mobile`,`parents_mobile`,`dob`,`added_by`) values('$snm','$course','$mob','$pmob','$dob','addedby')";
+		$sql = "insert into `student`(`student_name`,`class`,`mobile`,`parents_mobile`,`dob`,`added_by`) values('$snm','$course','$mob','$pmob','$dob','$addedby')";
 		$res = mysqli_query($con,$sql);
 	}
 ?>
