@@ -1,5 +1,5 @@
 <?php
-	$con = mysqli_connect("localhost","root","","cities");
+	$con = mysqli_connect("localhost","root","","college");
 	$sid = $_POST['sid'];
 	$sql = "select * from `cities` where `country_id`='$sid'";
 	$res = mysqli_query($con,$sql);
