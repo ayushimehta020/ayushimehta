@@ -1,7 +1,7 @@
 <?php
 	$con = mysqli_connect("localhost","root","","college");
 	$sid = $_POST['sid'];
-	$sql = "select * from `cities` where `country_id`='$sid'";
+	$sql = "select * from `cities` where `state_id`='$sid'";
 	$res = mysqli_query($con,$sql);
 	while($row = mysqli_fetch_assoc($res))
 	{
