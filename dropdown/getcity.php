@@ -1,0 +1,12 @@
+<?php
+	$con = mysqli_connect("localhost","root","","cities");
+	$sid = $_POST['sid'];
+	$sql = "select * from `cities` where `country_id`='$sid'";
+	$res = mysqli_query($con,$sql);
+	while($row = mysqli_fetch_assoc($res))
+	{
+		?>
+			<option value="<?php echo $row['id']; ?>"><?php echo $row['name']; ?></option>
+		<?php
+	}
+?>
