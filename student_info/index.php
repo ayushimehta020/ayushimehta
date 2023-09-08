@@ -37,7 +37,7 @@
 
 <div class="container w-50 mt-4 border border-dark rounded-2 bg-dark p-4">
 	<form action="index.php" method="POST">
-		<img src="add-student.png" class="h-25 d-block mx-auto">
+		<img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3244825/student-add-icon-sm.png" class="h-25 d-block mx-auto">
 		<input type="text" placeholder="Enter enrollment number" name="txtenr" class="form-control mt-2" required>
 		<input type="text" placeholder="Enter full name" name="txtnm" class="form-control mt-2" required>
 		<input type="email" placeholder="Enter email" name="txtmail" class="form-control mt-2" required>
