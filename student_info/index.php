@@ -43,8 +43,8 @@
 		<input type="email" placeholder="Enter email" name="txtmail" class="form-control mt-2" required>
 		<input type="password" placeholder="Enter password" name="txtpwd" class="form-control mt-2" required>
 		<input type="text" placeholder="Enter contact number" name="txtmob" class="form-control mt-2" required>
-		<select name="txtcourse" class="form-select mt-2">
-			<option>-- SELECT COURSE --</option>
+		<select name="txtcourse" class="form-select mt-2" required>
+			<option value="">-- SELECT COURSE --</option>
 			<option value="BSCIT">BSCIT</option>
 			<option value="BCA">BCA</option>
 			<option value="BBA">BBA</option>
