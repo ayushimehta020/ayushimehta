@@ -1,6 +1,6 @@
 <div class="container w-50 border border-dark p-4 rounded-1 bg-dark mt-5">
 	<form action="search-student.php" method="POST">
-		<img src="search-student.png" class="d-block mx-auto mb-3" style="height: 100px;">
+		<img src="https://cdn-icons-png.flaticon.com/512/1156/1156965.png" class="d-block mx-auto mb-3" style="height: 100px;">
 		<textarea class="form-control" name="txtsearch"></textarea>
 		<input type="submit" value="Search Student" class="btn btn-primary w-100 mt-2">
 		<a href="index.php" class="btn btn-warning w-100 mt-2">Insert Student</a>
