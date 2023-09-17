@@ -70,11 +70,11 @@
 			<option>Female</option>
 		</select><br><br>
 		<label for="business" name="occup">Occupation: &nbsp;</label>
-		<input type="radio" name="occu" id="occ">
+		<input type="radio" name="occu" id="occ" value="Service">
 		<label for="occ">Service</label>
-		<input type="radio" name="occu" id="occ1">
+		<input type="radio" name="occu" id="occ1" value="Self-employed">
 		<label for="occ1">Self-employed</label>
-		<input type="radio" name="occu" id="occ2">
+		<input type="radio" name="occu" id="occ2" value="Other">
 		<label for="occ2">Other</label><br><br>
 		<label for="mail">Email Address: </label>
 		<input type="email" name="email" id="mail"><br><br>
