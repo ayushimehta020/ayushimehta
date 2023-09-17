@@ -64,7 +64,8 @@
 		<label for="nm">Your name: &nbsp; &nbsp;</label>
 		<input type="text" name="name" id="nm" required><br><br>
 		<label for="gen">Gender: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
-		<select name="gender" id="gen"> 
+		<select name="gender" id="gen" required>
+			<option value="">-- SELECT GENDER --</option>
 			<option>Male</option>
 			<option>Female</option>
 		</select><br><br>
